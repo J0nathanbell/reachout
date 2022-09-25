@@ -1,5 +1,6 @@
 const playwright = require('@playwright/test');
 import {email, password} from 'logins.js'
+
 async function trendpopStateGetter() {
   const browser = await playwright["chromium"].launch({
     headless: false
