@@ -1,5 +1,5 @@
 const playwright = require('@playwright/test');
-
+import {email, password} from 'logins.js'
 async function trendpopStateGetter() {
   const browser = await playwright["chromium"].launch({
     headless: false
@@ -7,8 +7,8 @@ async function trendpopStateGetter() {
   const context = await browser.newContext();
   const page = await context.newPage();
   await page.goto('https://app.trendpop.com/home')
-  await page.locator('text=Email address').fill('martin.ashworth@umusic.com');
-  await page.locator('css=[placeholder="Password"]').fill('BigMusic123!')
+  await page.locator('text=Email address').fill(email);
+  await page.locator('css=[placeholder="Password"]').fill(password)
   await page.locator('css=[type="Submit"]').click();
   await page.locator('css=[type="radio"]').click();
   await page.locator('text=Go to dashboard').click();
