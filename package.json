@@ -1,0 +1,24 @@
+{
+  "name": "reachout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J0nathanbell/universal_work_automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/J0nathanbell/universal_work_automation/issues"
+  },
+  "homepage": "https://github.com/J0nathanbell/universal_work_automation#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.26.0"
+  },
+  "dependencies": {
+    "playwright": "^1.26.0"
+  }
+}

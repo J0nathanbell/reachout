@@ -1,0 +1,35 @@
+{
+  "cookies": [
+    {
+      "name": "tpat",
+      "value": "d9QCUfrrDZwWz8-f45oK14HlpJBQpJhp68fzGwZTnznPGK-COdqjo4_IdjAY0CA0hPCykRkmIWYOoMl8leKV-mNMVS_vb8UJVO2GI1YLBTl9aZVP0YMzGliE2u1o5zHnRPaDYdpxh5CsqyeGT21QjTSz99UbJA9qdhvWKVC9MdKr1pkmRVXs0IiW1zIydpmU-bwwL9FolGttYiOmtu3X55zQpqH4bSXQ4c1NKgAc--EYq-mMjKiJ_CXjihSdv1VBMotpPWlezdXjuTrfR1c-nvIwTaNTc4D9ezA0eHhTabCUXEl8k403E9Xi3_fMahk_0NKuqC4-1QDZcitLF2eePSOEFl5LwbZrSyYmIBHZ5IsdQ8_E8HIX8EnLksazyELC3IpMOfBMHffASjGkjbs1nr0mBhltbYA_KxKmOhhAXbJPr-mFuCs3gROCxj4QmPs6FlkbWD6CLkvdhEslKiLf_o2cxltSyIBwoEDsw0E0EfysycwfAxTLlg2K5fb2XydAfQ8Z8tW4Jztk8JtvxCD87ufvM7jBm3IZw5S2Ycy2AaGBcT3YCkeXqxpB1pmd8Qhbwts4WH0ewuUkhRGVT0qmnPKi0VdDopIfEBeFM-_Oe11TmaonvhFd1I83P3UG_a4r8nj7GUl-odn7uzb3sv-a8d4wuP17v4N7c1JJK4rYguYyRX8VwMPYfGzzUO6VnRifMkQxcj5nPBMs5qTVHd6vrhMuusWiou1eJleTTqThm4dCGbeDu7OuCa8wpDhokjLRkWrOztQ1XoXuOwBUdUIkwM5O50jw4Frn06EcX8NGksRuNqlYKxy7ue5aZuC4RuyrTZM2k5eheute2Y-aGWMpP-prpr7XWtss2Hj_2sdSyYAOJvmYqXv2VA82YbDY9LMsqYUNM_yHr_NzjbsH774weHcf2xRa-P4pQ24QMCID01Oe_WHH_u5BabdmDxR2_uzRcxkbSDQcXMzR_1iF1OK4LdB8QRipQgosfJVlLjjFqFV3oeNIiyzVTcXVj2kEq3vrpScwAhQInNyWLLCPlRLdGU2Wk5Q94Vmry3sAgLOCC4f7hbv0asbqECCWugQ3bWMug3j-cLf7dprsxtZkHYfB8fFInJ8JVAHPIFS1kiBiBXel4dlzRnwrU1uJDlfnwBSDVU68UJXIPZBHIYgLlV0SdUfCE2FGu1bgNlFGptdztc0xGNbRS4xr7nz-1JqjsYJbsGNFsrtbm4sqbZw4wtsZv0tdwFN2xtYdmIpNgJs3w-sxiMSlv_nw50ezlyMBTmJ5exuGRhy6PSRkCGGfJMKMXE7tUGFxmJSAiZJktCLMkrHH9DLpynRCMK9LLViR_hqisyMG6dbmHb1v1SFiYStr1rPkFi4PFNE2bvS0G9gyXeKLPw6Q4FGjpNTWkjpJ-Ny1",
+      "domain": ".trendpop.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "tprt",
+      "value": "9xIY9HI4ZCE9fj5OkiMfq0WZ-WrRowulWFZuMnpSulKmW25Ma5WnfTKlcuZq32xdaldiRtQCIDPUvinYIbJgbgVAWyys-WNq3kymc_9Nx3JQpevyfr8r23RGNrmbnZneop1jskBoqRcmFt8xJyiv7w",
+      "domain": ".trendpop.com",
+      "path": "/",
+      "expires": 1666702385.25818,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "tpli",
+      "value": "martin.ashworth%40umusic.com",
+      "domain": ".trendpop.com",
+      "path": "/",
+      "expires": 1695646386.123635,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}
