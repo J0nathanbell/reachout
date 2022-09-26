@@ -1,10 +1,10 @@
 // import all the relevent functions from data getter
-const {sanitisor} = require('./dataGetter.js')
+const {sanitisor} = require('./dataGetter.js');
 
-async function returnData() {
+(async function returnData() {
   let data = await sanitisor();
-  return console.log(data)
-}
+  return data
+})()
 
 // create a cookie file for monday
 

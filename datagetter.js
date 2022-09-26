@@ -1,18 +1,17 @@
 const { chromium } = require('@playwright/test');
 const {extractEmails, emailRegex, extractInsta, instaRegex} = require('./regex.js');
-const {tiktokUrlToTrendpopUrl} = require('./functions.js')
+const {tiktokUrlToTrendpopUrl, linkReducer} = require('./functions.js')
 const {readFileSync, promises: fsPromises} = require('fs')
 
 // function to read text file
 function syncReadFile(filename) {
   const contents = readFileSync(filename, 'utf-8');
-
   const arr = contents.split(/\r?\n/).slice(0, -1);
-
   return arr;
 }
 // reads text file saves it as tiktokurl
 const tiktokUrl = syncReadFile('./example.txt')[0]
+
 // change the url into a trendpop url
 const trendpopUrl = tiktokUrlToTrendpopUrl(tiktokUrl)
 
@@ -37,7 +36,7 @@ async function scraper() {
 
   await page.goto(trendpopUrl);
   await page.locator('#root > div > div > div.Dashboard__AppContent-sc-1kdbayt-0.iTgJcQ > div.MuiPaper-root.Dashboard__Paper-sc-1kdbayt-1.Dashboard__InnerAppContent-sc-1kdbayt-2.gQPoTd.MuiPaper-elevation1.MuiPaper-rounded > div.MuiBox-root.jss21 > div > div.MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-7.MuiGrid-item.MuiGrid-grid-xs-12 > div:nth-child(1) > div > div > div > div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-sm-12.MuiGrid-grid-md-7.MuiGrid-grid-lg-9 > h4').waitFor();
-  const link = tiktokUrl
+  const link = linkReducer(tiktokUrl)
   const views = await page.locator("xpath=//*[@id='root']/div/div/div[2]/div[1]/div[2]/div/div[1]/div[1]/div/div/div/div[2]/div[1]/h4").innerText();
   const bio = await page.locator("xpath=//*[@id='root']/div/div/div[2]/div[1]/div[2]/div/div[1]/div[2]/div/div[1]/div/div[2]/a/p").innerText();
   const subtitle = await page.locator("xpath=//*[@id='root']/div/div/div[2]/div[1]/div[2]/div/div[1]/div[2]/div/div[1]/div/div[2]/a/h4").innerText();
@@ -45,12 +44,12 @@ async function scraper() {
   const tagsList = await page.locator("xpath=//*[@id='root']/div/div/div[2]/div[1]/div[2]/div/div[1]/div[1]/div/div/div/div[2]/div[2]/p").innerText();
   const tagsListText = tagsList.split(' ');
 
-  return {views, handle, tagsListText, bio, subtitle};
+  return {views, handle, tagsListText, bio, subtitle, link};
 };
 
 
-(async function sanitisor(){
-  let { views, handle, tagsListText, subtitle, bio } = await scraper();
+async function sanitisor(){
+  let { views, handle, tagsListText, subtitle, bio, link } = await scraper();
   // creates an array of tags
   const tagsCreate = (list) => {
     let tag_array = []
@@ -76,7 +75,8 @@ async function scraper() {
     views: views,
     handle: handle,
     tags_array: tags_array,
-    contacts: contacts
+    contacts: contacts,
+    link: link
   }
   return console.log((data))
 
@@ -85,6 +85,6 @@ async function scraper() {
     // bioInsta
     // subtitleInsta
     // clickableLink
-})()
+}
 
-// exports.sanitisor = sanitisor;
+exports.sanitisor = sanitisor;
