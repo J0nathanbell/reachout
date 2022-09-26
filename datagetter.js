@@ -78,7 +78,7 @@ async function sanitisor(){
     contacts: contacts,
     link: link
   }
-  return console.log((data))
+  return data
 
     // bioEmail,
     // subtitleEmail

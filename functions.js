@@ -12,6 +12,5 @@ const linkReducer = (url) => {
   return firstBit
 }
 
-
 exports.tiktokUrlToTrendpopUrl = tiktokUrlToTrendpopUrl
 exports.linkReducer = linkReducer
