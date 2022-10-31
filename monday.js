@@ -1,5 +1,5 @@
 // imports
-const {getData} = require('./dataGetter.js');
+const {getData} = require('./dataGetter2.js');
 
 async function inputData() {
   let data = await getData();
