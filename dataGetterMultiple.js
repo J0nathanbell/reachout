@@ -1,6 +1,6 @@
 // imports...
 const { chromium } = require('@playwright/test');
-const {linkExtractAndSanitise} = require('./functions.js')
+const {linkExtractAndSanitise, tagsCreate, extractContacts} = require('./functions.js')
 
 async function getData() {
   // returns an array of all the urls
@@ -30,23 +30,20 @@ async function getData() {
     const subtitle = await page.locator("xpath=//*[@id='root']/div/div/div[2]/div[1]/div[2]/div/div[1]/div[2]/div/div[1]/div/div[2]/a/h4").innerText();
     const handle = await page.locator("xpath=//*[@id='root']/div/div/div[2]/div[1]/div[2]/div/div[1]/div[1]/div/div/div/div[2]/div[3]/p/a").innerText();
     const tagsList = await page.locator("xpath=//*[@id='root']/div/div/div[2]/div[1]/div[2]/div/div[1]/div[1]/div/div/div/div[2]/div[2]/p").innerText();
-    const tagsListText = await tagsList.split(' ');
-    const tagsCreate = (list) => {
-      let tag_array = []
-      for( const tag of list){
-        if(tag.startsWith('#')){
-          tag_array.push(tag)
-        }
-      }
-      return tag_array
-    };
-    const tags_array = await tagsCreate(tagsListText)
-    const contacts = `${bio} - ${subtitle}`
+    const tags_array = await tagsCreate(tagsList)
+    const bioAndSubtitle = `${bio} - ${subtitle}`
+    if(page.isVisible("xpath=//*[@id='root']/div/div/div[2]/div[1]/div[2]/div[1]/div/div[1]/div[2]/div[4]/span/a")){
+      const bioLink = await page.locator("xpath=//*[@id='root']/div/div/div[2]/div[1]/div[2]/div[1]/div/div[1]/div[2]/div[4]/span/a").innerText();
+    }
+    const extractedContacts = await extractContacts(bioAndSubtitle)
+
     const data = {
       views: views,
       handle: handle,
       tags_array: tags_array,
-      contacts: contacts,
+      bioLink: bioLink,
+      contactsText: bioAndSubtitle,
+      extractedContacts: extractedContacts,
       link: link
     }
     mainLinkDataArray.push(data)

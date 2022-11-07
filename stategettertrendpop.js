@@ -15,5 +15,6 @@ async function trendpopStateGetter() {
   await page.locator('css=[type="radio"]').click();
   await page.locator('text=Go to dashboard').click();
   await page.context().storageState({ path: 'storageState.json' });
+  await browser.close();
 };
 trendpopStateGetter()

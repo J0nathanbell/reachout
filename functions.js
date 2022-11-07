@@ -29,6 +29,35 @@ async function linkExtractAndSanitise(){
   return trendpopUrlArray
 }
 
+async function tagsCreate(list){
+    const tagsListText = await list.split(' ');
+    let tag_array = []
+    for( const tag of tagsListText){
+      if(tag.startsWith('#')){
+        tag_array.push(tag.slice(1))
+      }
+    }
+  return tag_array
+};
+
+async function  extractContacts(bioAndSubtitle){
+  // look in the bio and the sub title for:
+  // emailaddresses
+  const email = emailRegex.exec(bioAndSubtitle)
+  const instaHandle = instaHandleRegex.exec(bioAndSubtitle)
+
+// insta instagram or IG I.G and whatever comes after it excluding an @ symbol instagram.com/czolgistadaniel
+// links click through click text open anyway then search dom for instagram.com/handle with regex excluding all but letters, periods, numbers, or underscores
+
+  // bioEmail,
+  // subtitleEmail
+  // bioInsta
+  // subtitleInsta
+  // clickableLink
+}
+
+exports.extractContacts = extractContacts
+exports.tagsCreate = tagsCreate;
 exports.linkExtractAndSanitise = linkExtractAndSanitise;
 exports.syncReadFile = syncReadFile;
 exports.tiktokUrlToTrendpopUrl = tiktokUrlToTrendpopUrl

@@ -4,6 +4,14 @@ const {getData} = require('./dataGetter2.js');
 async function inputData() {
   let data = await getData();
 
+  // Create a storagestate file
+  // open the browser 
+  // go to monday my view specifically (work out specific filters dates etc)
+  // click new aquisition = div data-walkthrough-id="add-item-with-dropdown"
+  // loop over the data entries one by one inputting the correct data into the correct places
+
+
+
   // const browser = await chromium.launch({
   //   headless: false
   // });
