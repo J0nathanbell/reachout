@@ -20,11 +20,11 @@ async function extractContacts(){
   // click the button as soon as visible
   const openAnyway = page.locator('xpath=//*[@id="button_"]')
   await openAnyway.click();
+
   try {
     await page.reload()
     console.log('Trying to find link');
     const instaLink = await page.waitForSelector("a[aria-label~='instagram']".href);
-    const linkyGuy = instaLink.innerHTML()
     console.log(linkyGuy);
     console.log(instaLink);
 
