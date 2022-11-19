@@ -21,12 +21,16 @@ const syncReadFile = (filename) => {
   return arr;
 }
 async function linkExtractAndSanitise(){
-  const trendpopUrlArray = []
+  const tiktokAndTrendpopArray = []
   const tiktokUrlList = await syncReadFile('./example.txt')
     for(const link of tiktokUrlList){
-      trendpopUrlArray.push(tiktokUrlToTrendpopUrl(link))
+      const data = {
+        tiktokUrl: linkReducer(link),
+        trendpopUrl:tiktokUrlToTrendpopUrl(link)
+      }
+      tiktokAndTrendpopArray.push(data)
   }
-  return trendpopUrlArray
+  return tiktokAndTrendpopArray
 }
 
 async function tagsCreate(list){
@@ -39,23 +43,35 @@ async function tagsCreate(list){
     }
   return tag_array
 };
+async function viewsToFigure(viewsString){
+  const milorthou = viewsString.slice(-1)
+  const figure = viewsString.slice(0, -1);
+  if(milorthou == 'm'){
+    const number = parseFloat(figure) * 1000000
+    console.log(number)
+    return number
+  }else{
+    const number = parseFloat(figure) * 1000
+    console.log(number)
+    return number
+  }
+}
 
 async function  extractContacts(bioAndSubtitle){
   // look in the bio and the sub title for:
   // emailaddresses
   const email = emailRegex.exec(bioAndSubtitle)
   const instaHandle = instaHandleRegex.exec(bioAndSubtitle)
-
-// insta instagram or IG I.G and whatever comes after it excluding an @ symbol instagram.com/czolgistadaniel
-// links click through click text open anyway then search dom for instagram.com/handle with regex excluding all but letters, periods, numbers, or underscores
-
-  // bioEmail,
-  // subtitleEmail
-  // bioInsta
-  // subtitleInsta
-  // clickableLink
 }
 
+async function tagExtract(bio){
+  const regex = /\B(\#[a-zA-Z]+\b)(?!;)/g
+  const tagsList = bio.match(regex)
+  return tagsList
+}
+
+exports.tagExtract = tagExtract
+exports.viewsToFigure = viewsToFigure
 exports.extractContacts = extractContacts
 exports.tagsCreate = tagsCreate;
 exports.linkExtractAndSanitise = linkExtractAndSanitise;

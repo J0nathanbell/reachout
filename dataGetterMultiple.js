@@ -1,10 +1,10 @@
 // imports...
 const { chromium } = require('@playwright/test');
-const {linkExtractAndSanitise, tagsCreate, extractContacts} = require('./functions.js')
+const {linkExtractAndSanitise, tagsCreate, extractContacts, viewsToFigure, tagExtract} = require('./functions.js')
 
 async function getData() {
   // returns an array of all the urls
-  const listOfLinks = await linkExtractAndSanitise()
+  const allUrlLinks = await linkExtractAndSanitise()
   // This is the returned array of all the data
   const mainLinkDataArray = []
   const browser = await chromium.launch({
@@ -21,30 +21,31 @@ async function getData() {
   // await page.locator('text=Add To Collection').waitFor();
   await page.locator('#root > div > div > div.Dashboard__AppContent-sc-1kdbayt-0.iTgJcQ > div.MuiPaper-root.Dashboard__Paper-sc-1kdbayt-1.Dashboard__InnerAppContent-sc-1kdbayt-2.gQPoTd.MuiPaper-elevation1.MuiPaper-rounded > div > div.MuiBox-root.jss23 > div.MuiBox-root.jss24 > img').waitFor()
 
-  for(const Urllink of listOfLinks){
-    await page.goto(Urllink);
-    await page.locator('#root > div > div > div.Dashboard__AppContent-sc-1kdbayt-0.iTgJcQ > div.MuiPaper-root.Dashboard__Paper-sc-1kdbayt-1.Dashboard__InnerAppContent-sc-1kdbayt-2.gQPoTd.MuiPaper-elevation1.MuiPaper-rounded > div.MuiBox-root.jss21 > div > div.MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-7.MuiGrid-item.MuiGrid-grid-xs-12 > div:nth-child(1) > div > div > div > div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-sm-12.MuiGrid-grid-md-7.MuiGrid-grid-lg-9 > h4').waitFor();
-    const link = Urllink
-    const views = await page.locator("xpath=//*[@id='root']/div/div/div[2]/div[1]/div[2]/div/div[1]/div[1]/div/div/div/div[2]/div[1]/h4").innerText();
-    const bio = await page.locator("xpath=//*[@id='root']/div/div/div[2]/div[1]/div[2]/div/div[1]/div[2]/div/div[1]/div/div[2]/a/p").innerText();
-    const subtitle = await page.locator("xpath=//*[@id='root']/div/div/div[2]/div[1]/div[2]/div/div[1]/div[2]/div/div[1]/div/div[2]/a/h4").innerText();
-    const handle = await page.locator("xpath=//*[@id='root']/div/div/div[2]/div[1]/div[2]/div/div[1]/div[1]/div/div/div/div[2]/div[3]/p/a").innerText();
-    const tagsList = await page.locator("xpath=//*[@id='root']/div/div/div[2]/div[1]/div[2]/div/div[1]/div[1]/div/div/div/div[2]/div[2]/p").innerText();
-    const tags_array = await tagsCreate(tagsList)
-    const bioAndSubtitle = `${bio} - ${subtitle}`
-    if(page.isVisible("xpath=//*[@id='root']/div/div/div[2]/div[1]/div[2]/div[1]/div/div[1]/div[2]/div[4]/span/a")){
-      const bioLink = await page.locator("xpath=//*[@id='root']/div/div/div[2]/div[1]/div[2]/div[1]/div/div[1]/div[2]/div[4]/span/a").innerText();
-    }
-    const extractedContacts = await extractContacts(bioAndSubtitle)
+  for(const Urllink of allUrlLinks){
+    await page.goto(Urllink.trendpopUrl);
+    await page.locator('xpath=//*[@id="root"]/div/div/div[1]/div/div/div/ul/div/a[2]').waitFor();
+    // wait for reports tab to be visible
+    const trendpopCreatorPageLink = Urllink.trendpopUrl;
+    const tiktokLink = Urllink.tiktokUrl;
+    const views = await page.locator('xpath=//*[@id="video-report"]/div/div[1]/div[1]/div/div/div/div[2]/div[1]/h4').innerText();
+    const bio = await page.locator('xpath=//*[@id="video-report"]/div/div[1]/div[1]/div/div/div/div[2]/div[2]/p').innerText();
+    const handle = await page.locator('xpath=//*[@id="video-report"]/div/div[1]/div[1]/div/div/div/div[2]/div[3]/p/a').innerText();
+
+    // if the link is visible save it as bioLink
+
+    // if(page.isVisible("xpath=//*[@id='root']/div/div/div[2]/div[1]/div[2]/div[1]/div/div[1]/div[2]/div[4]/span/a")){
+    //   const bioLink = await page.locator("xpath=//*[@id='root']/div/div/div[2]/div[1]/div[2]/div[1]/div/div[1]/div[2]/div[4]/span/a").innerText();
+    //   console.log(bioLink)
+    // }
+    // const extractedContacts = await extractContacts(bioAndSubtitle)
 
     const data = {
-      views: views,
+      views: await viewsToFigure(views),
       handle: handle,
-      tags_array: tags_array,
-      bioLink: bioLink,
-      contactsText: bioAndSubtitle,
-      extractedContacts: extractedContacts,
-      link: link
+      bio: bio,
+      tags: await tagExtract(bio),
+      tiktokLink: tiktokLink,
+      trendpopCreatorPageLink: trendpopCreatorPageLink,
     }
     mainLinkDataArray.push(data)
   }
