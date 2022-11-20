@@ -13,7 +13,7 @@ async function getData(){
       headless: true
     });
     const context = await browser.newContext({
-      storageState: 'storageState.json'
+      storageState: 'storageStateTrendpop.json'
     });
     const page = await context.newPage();
     await page.goto('https://app.trendpop.social');

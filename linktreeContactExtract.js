@@ -34,4 +34,3 @@ async function extractContacts(){
   // browser.close()
 }
 extractContacts()
-// .then((instaLink) => console.log(instaLink));
