@@ -16,27 +16,34 @@ const syncReadFile = (filename) => {
 // function to read text file
 async function linkExtractAndSanitise(){
   const tiktokAndTrendpopArray = []
-  const tiktokUrlList = await syncReadFile('./example.txt')
+  const tiktokUrlList = syncReadFile('./example.txt')
     for(const link of tiktokUrlList){
       const data = {
         tiktokVideoLink: linkReducer(link),
         tiktokCreatorLink: creatorPage(link),
         trendpopVideoLink: tiktokUrlToTrendpopUrl(link),
+        trendpopCreatorLink: trendpopCreatorPage(tiktokUrlToTrendpopUrl(link)),
       }
       tiktokAndTrendpopArray.push(data)
   }
   return tiktokAndTrendpopArray
 }
+
+const trendpopCreatorPage = (url) => {
+  const regex = /h[\s\S]*?\/videos/
+  const firstBit = url.match(regex)[0].slice(0, -7);
+  return firstBit
+};
+
 const linkReducer = (url) => {
   const regex = /h[\s\S]*?[?]/
   const firstBit = url.match(regex)[0].slice(0, -1);
   return firstBit
 };
-
 const creatorPage = (link) =>{
   const regex = /.+?(?=video)/
   const creatorPageLink = link.match(regex)
-  return creatorPageLink
+  return creatorPageLink[0]
 }
 async function tagsCreate(list){
     const tagsListText = await list.split(' ');
@@ -87,47 +94,52 @@ async function removeEmptyBio(bio){
   return bio
   }
 }
-
-async function linktree(link){
-  const linkTree = await page.locator("xpath=//*[@id='app']/div[2]/div[2]/div/div[1]/div[2]/a").getAttribute('href')
-  await page.goto(linkTree);
-  // click the button as soon as visible
-  const openAnyway = page.locator('xpath=//*[@id="button_"]')
-  await openAnyway.click();
-
+// try to see if there is a linktree link and click it
+async function isLinktreeVisible(page){
   try {
+    const linkTreeLink = await page.locator("xpath=//*[@id='app']/div[2]/div[2]/div/div[1]/div[2]/a").getAttribute('href')
+    await page.goto(linkTreeLink);
+    console.log('Linktree visible and clicked on');
+    return true
+  } catch(err) {
+    console.error('Linktree link NOT visible')
+    return false
+  }
+}
+// try to click the open anyway link page
+async function openAnywayPagePresent(page){
+  try {
+    const openAnyway = page.locator('xpath=//*[@id="button_"]').click();
+    await openAnyway.click()
     await page.reload()
-    console.log('Trying to find link...');
-    const instaLink = await (await page.waitForSelector("a[aria-label~='instagram']")).getAttribute('href');
-    console.log(instaLink);
+    console.log('clicked open anyway button')
+    await cookieAcceptPagePresent()
+  } catch(err){
+    console.error('No open anyway button!')
+  }
+}
+async function cookieAcceptPagePresent(page){
+  try {
+      const cookieAccept = page.locator('text="Accept"').click()
+      await cookieAccept.click()
+      await page.reload()
+      await instagramLinkVisible()
+  } catch(err){
+    console.error('No cookie accept button')
+  }
+}
+async function instagramLinkVisible(page){
+  try{
+    const instaLink = await(page.waitForSelector("a[aria-label~='instagram']")).getAttribute('href');
+    console.log('Found instalink!');
     return instaLink
-
-} catch (err) {
-    console.error('Could not find it... boo!');
+  } catch(err){
+    console.error('couldn\'t find an insta link')
+    return 'No link visible'
+  }
 }
 
-}
-
-
-
-
-
-
-// // insta regex match single email only
-// var instaRegex = /(?:@)([A-Za-z0-9_](?:(?:[A-Za-z0-9_]|(?:\.(?!\.))){0,28}(?:[A-Za-z0-9_]))?)/g;
-
-
-// // email regex match single email only
-// const emailRegex = /(?:[a-z0-9+!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])/gi
-// function extractEmails (text) {
-//   return console.log(text.match(emailRegex));
-// }
-
-
-
-
-
-
+exports.openAnywayPagePresent = openAnywayPagePresent
 exports.tagExtract = tagExtract
 exports.viewsToFigure = viewsToFigure
 exports.tagsCreate = tagsCreate;

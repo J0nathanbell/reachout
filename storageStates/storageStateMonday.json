@@ -2,100 +2,10 @@
   "cookies": [
     {
       "name": "bb_visitor_id",
-      "value": "11fad973",
+      "value": "122f81d5",
       "domain": ".monday.com",
       "path": "/",
-      "expires": 1703462352.304618,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "__cf_bm",
-      "value": "AbcMq7ZTX3PZoZ_hFKBYKim8ZcKVsnO394aG7lDr568-1668902352-0-ASS7H6uZmkeQn5chkxBUucmPYX2C6CukM2TVEWR8IY25yHRo5C6hZVvYBh4DDdSLYX5Uj29B+mdxElzinIl4ekcHdLGa+xpnuF5uTQDUMPzMoOKZZdB5QEkzCtPyqeGlTapRMWtB9ZSjrSsbmra8mShNuakWTFjxXnVerOsgC7pOJmihvSC1xRHg99DkZCpHDTQqEXoLE/PQSJLyTe6JePU=",
-      "domain": ".monday.com",
-      "path": "/",
-      "expires": 1668904152.340302,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "xi_time_diff",
-      "value": "0",
-      "domain": ".monday.com",
-      "path": "/",
-      "expires": 1703462352.693529,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "xi_ip",
-      "value": "82.29.36.249",
-      "domain": ".monday.com",
-      "path": "/",
-      "expires": 1703462352.693701,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "xi_loc",
-      "value": "52.2500%2C-0.8833",
-      "domain": ".monday.com",
-      "path": "/",
-      "expires": 1703462352.693812,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "xi_org",
-      "value": "undefined",
-      "domain": ".monday.com",
-      "path": "/",
-      "expires": 1703462352.693987,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "xi_city",
-      "value": "Northampton",
-      "domain": ".monday.com",
-      "path": "/",
-      "expires": 1703462352.694088,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "xi_region",
-      "value": "England",
-      "domain": ".monday.com",
-      "path": "/",
-      "expires": 1703462352.694222,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "xi_country",
-      "value": "GB",
-      "domain": ".monday.com",
-      "path": "/",
-      "expires": 1703462352.694361,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "xi_postal",
-      "value": "NN1",
-      "domain": ".monday.com",
-      "path": "/",
-      "expires": 1703462352.694524,
+      "expires": 1704367730.334546,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -115,7 +25,7 @@
       "value": "umg",
       "domain": ".monday.com",
       "path": "/",
-      "expires": 1703462362.153421,
+      "expires": 1704367739.967321,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -135,47 +45,117 @@
       "value": "use1",
       "domain": "umg.monday.com",
       "path": "/",
-      "expires": 1700438352.740829,
+      "expires": 1701343730.682558,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "jwt_session_token",
-      "value": "eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjE5NzA4ODcyMiwidWlkIjozMTI3MzY1OSwiaWFkIjoiMjAyMi0xMS0xOVQyMzo1OToxMi41NjZaIiwicGVyIjoibWU6c2Vzc2lvbiIsImFjdGlkIjo2MDU5NCwicmduIjoidXNlMSJ9.FsQWyZBsSJCBFcAnepxHzNEqSBwtJDKoKefYexYpV5I",
+      "value": "eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjIwMjIzMjQyNSwidWlkIjozMTI3MzY1OSwiaWFkIjoiMjAyMi0xMS0zMFQxMToyODo1MC41MzFaIiwicGVyIjoibWU6c2Vzc2lvbiIsImFjdGlkIjo2MDU5NCwicmduIjoidXNlMSJ9.mvo-I6lerKwMkEr7xJ3hBygIGAPLPflffLiXO5prE3k",
       "domain": "umg.monday.com",
       "path": "/",
-      "expires": 1703462352.740859,
+      "expires": 1704367730.682572,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None"
+    },
+    {
+      "name": "xi_time_diff",
+      "value": "0",
+      "domain": ".monday.com",
+      "path": "/",
+      "expires": 1704367730.938949,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "xi_ip",
+      "value": "82.29.36.249",
+      "domain": ".monday.com",
+      "path": "/",
+      "expires": 1704367730.939002,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "xi_loc",
+      "value": "52.2500%2C-0.8833",
+      "domain": ".monday.com",
+      "path": "/",
+      "expires": 1704367730.939108,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "xi_org",
+      "value": "undefined",
+      "domain": ".monday.com",
+      "path": "/",
+      "expires": 1704367730.939198,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "xi_city",
+      "value": "Northampton",
+      "domain": ".monday.com",
+      "path": "/",
+      "expires": 1704367730.939262,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "xi_region",
+      "value": "England",
+      "domain": ".monday.com",
+      "path": "/",
+      "expires": 1704367730.939342,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "xi_country",
+      "value": "GB",
+      "domain": ".monday.com",
+      "path": "/",
+      "expires": 1704367730.93946,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "xi_postal",
+      "value": "NN1",
+      "domain": ".monday.com",
+      "path": "/",
+      "expires": 1704367730.939574,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
     },
     {
       "name": "monday_active_account_slugs",
       "value": "%5B%22umg%22%5D",
       "domain": ".monday.com",
       "path": "/",
-      "expires": 1700438352.458569,
+      "expires": 1701343731.513924,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "monday_slug_details",
-      "value": "%5B%7B%22un%22%3A%22Jonathan+Bell%22%2C%22ue%22%3A%22jonnybell123%40hotmail.com%22%2C%22ui%22%3A31273659%2C%22us%22%3A8003%2C%22up%22%3A%22https%3A%2F%2Ffiles.monday.com%2Fuse1%2Fphotos%2F31273659%2Fthumb_small%2F31273659-user_photo_2022_06_14_16_06_52.png%3F1655222812%22%2C%22an%22%3A%22Universal+Music+Group%22%2C%22ac%22%3A%222015-03-12T18%3A58%3A40Z%22%2C%22ai%22%3A60594%2C%22sl%22%3A%22umg%22%2C%22lu%22%3A%222022-11-19T23%3A59%3A12%2B00%3A00%22%7D%5D",
+      "value": "%5B%7B%22un%22%3A%22Jonathan+Bell%22%2C%22ue%22%3A%22jonnybell123%40hotmail.com%22%2C%22ui%22%3A31273659%2C%22us%22%3A8003%2C%22up%22%3A%22https%3A%2F%2Ffiles.monday.com%2Fuse1%2Fphotos%2F31273659%2Fthumb_small%2F31273659-user_photo_2022_06_14_16_06_52.png%3F1655222812%22%2C%22an%22%3A%22Universal+Music+Group%22%2C%22ac%22%3A%222015-03-12T18%3A58%3A40Z%22%2C%22ai%22%3A60594%2C%22sl%22%3A%22umg%22%2C%22lu%22%3A%222022-11-30T11%3A28%3A51%2B00%3A00%22%7D%5D",
       "domain": ".monday.com",
       "path": "/",
-      "expires": 1700438352.458674,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
-      "name": "_fbp",
-      "value": "fb.1.1668902354051.881151510",
-      "domain": ".monday.com",
-      "path": "/",
-      "expires": 1676678354,
+      "expires": 1701343731.513999,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -185,7 +165,7 @@
       "value": "true",
       "domain": ".monday.com",
       "path": "/",
-      "expires": 1703462354.112081,
+      "expires": 1704367732.305893,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -195,7 +175,17 @@
       "value": "1",
       "domain": ".monday.com",
       "path": "/",
-      "expires": 1703462354.112241,
+      "expires": 1704367732.305987,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_fbp",
+      "value": "fb.1.1669807732500.888075608",
+      "domain": ".monday.com",
+      "path": "/",
+      "expires": 1677583732,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -205,7 +195,7 @@
       "value": "9",
       "domain": ".monday.com",
       "path": "/",
-      "expires": 1700438354,
+      "expires": 1701343733,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -215,7 +205,7 @@
       "value": "false",
       "domain": ".monday.com",
       "path": "/",
-      "expires": 1700438354,
+      "expires": 1701343733,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -225,7 +215,7 @@
       "value": "false",
       "domain": ".monday.com",
       "path": "/",
-      "expires": 1700438354,
+      "expires": 1701343733,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -235,7 +225,7 @@
       "value": "false",
       "domain": ".monday.com",
       "path": "/",
-      "expires": 1700438354,
+      "expires": 1701343733,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -245,7 +235,7 @@
       "value": "0",
       "domain": ".monday.com",
       "path": "/",
-      "expires": 1700438354,
+      "expires": 1701343733,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -255,7 +245,7 @@
       "value": "",
       "domain": ".monday.com",
       "path": "/",
-      "expires": 1700438354,
+      "expires": 1701343733,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -265,7 +255,7 @@
       "value": "",
       "domain": ".monday.com",
       "path": "/",
-      "expires": 1700438354,
+      "expires": 1701343733,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -275,7 +265,7 @@
       "value": "true",
       "domain": ".monday.com",
       "path": "/",
-      "expires": 1700438354,
+      "expires": 1701343733,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -285,7 +275,7 @@
       "value": "60594",
       "domain": ".monday.com",
       "path": "/",
-      "expires": 1700438354,
+      "expires": 1701343733,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -295,7 +285,7 @@
       "value": "31273659",
       "domain": ".monday.com",
       "path": "/",
-      "expires": 1700438354,
+      "expires": 1701343733,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -305,7 +295,7 @@
       "value": "false",
       "domain": ".monday.com",
       "path": "/",
-      "expires": 1700438354,
+      "expires": 1701343733,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -315,7 +305,7 @@
       "value": "false",
       "domain": ".monday.com",
       "path": "/",
-      "expires": 1700438354,
+      "expires": 1701343733,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -325,7 +315,7 @@
       "value": "version(){}",
       "domain": ".monday.com",
       "path": "/",
-      "expires": 1700438354,
+      "expires": 1701343733,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -335,17 +325,27 @@
       "value": "true",
       "domain": ".monday.com",
       "path": "/",
-      "expires": 1703462354.955972,
+      "expires": 1704367733.511033,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
+      "name": "__cf_bm",
+      "value": "b7JEKws5afMOUBUtU6a5uNOR4na5H5OQd8XmgipkqsQ-1669807733-0-Aef10exuEA11kdai6gKMcIapNFXpArdJh4xSzQMUOvTBEOf/DYczcj6JA4UiI8CTltJgQ0CiI0E17VH8v30Fu/RiQkYdGP2UJfbDSX2maZv+0VIOFFdsDp1PUR2/kCHVtWABBhl2RGZZ3CvIx2AqyUuodN6kjkwLO+TjZbV/O6KySQlFB54DXKKbdU0+NGHr+/cibqueB3RQ9cHBcm9TZA8=",
+      "domain": ".monday.com",
+      "path": "/",
+      "expires": 1669809533.968467,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
       "name": "AWSALBCORS",
-      "value": "ljDziEsxcn5cRybZKMLiAhzLSWFleZ3exxc5IDkAITaWvGNWQCMSSDuoitU5idD/OJAEPtfEI6NNZ1o8JbAyIKiVn9KCmoO15KyamfZivIXlRQxWgxRQDZ3lD7ee",
+      "value": "zDtiV8L1pZiP2rGH7//arTLpsB6zVRECcj4tiek5dTFP11xrLgGfamquzZNKS2E+cGNkqZTOT7/dcDiXMNrDSj2n8war9Qjyca9lqCf+4TSlsInwvNqtP+/Q92w/",
       "domain": "widget-mediator.zopim.com",
       "path": "/",
-      "expires": 1669507158.193831,
+      "expires": 1670412537.242854,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
@@ -355,27 +355,27 @@
       "value": "1ASkzuyaLrRD1cT",
       "domain": ".monday.com",
       "path": "/",
-      "expires": 1700438358,
+      "expires": 1701343737,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "encUserId",
-      "value": "eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjM0MDA5NjMxMjQsImRhdCI6MzEyNzM2NTl9.-3NJNQad8FIR1rM2QjMMQqPy0fYQIZOjspbtxoDkRQ0",
+      "value": "eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjM0MDI3NzM4NzksImRhdCI6MzEyNzM2NTl9.23I_e7MSC8Gw2qvfwnpbSS-8DOmY4EEIhGm7NwKJW0w",
       "domain": ".monday.com",
       "path": "/",
-      "expires": 1703462362.153378,
+      "expires": 1704367739.967282,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "dapulse_session",
-      "value": "OGRsQUQ2S2taSFVuSkp0a0hLRmxhTTFuc1JSUG5hY2FJbWJSbktEdzhhcEM2UVRjQSthdWY4U2NydWFNaUd2Qkk2T3dPMXNIQmRaczVERVdRM1JMYWNKejdXUzIyN2F5SWNVd0dkcWx0TjhlWHAvbGFFUTIrQXRCeSsyR1llRXkrL1lHUDhCT1VSd3o4NEsxRitnSVVWYWdJTFNtV3JCM2JYMkljaFNzaDJzOWhNWEd0VFdlUFF4Mlgvb0VXU0k0c05vbTN3NGdxbnNZZnJndGdCd04rdz09LS1aTkJBSUxraTJxZCsrZDZ0Q1dzclh3PT0%3D--578314e34d0a9871a83327686856e9b090b821eb",
+      "value": "SkU4SFcyS1Y5MWljVGtMNDZHUzdBbzRBYnFwb2JEMjJudC84eTBUZVhMd0NwYmZTend5OTZhTTEyVU16enF1WFVVUVZoNnNPZXphM09VODUzbVY2eGZvZ2NtMHRMcDdtaUYxNUlzakhmMmV0LzBhb3g4OXRGdFhYTlF3cHA5N1Izd3grNnkySTBha3Y5N1d0eXZqZS96OEdNU2t2STA0Zjk0YTdFb1JUT1ZXejMvajZIQnpnSFFOL2NHYWlJYVNsdEp2dVIrblpKR2Y2LzhCRkFUTXVQZz09LS1lZ2o1cGF5bUpzU3RybHpjdVB1RUJRPT0%3D--abbf5a977efe0618720a83b29692f35fb3455d14",
       "domain": "umg.monday.com",
       "path": "/",
-      "expires": 1700459314.153446,
+      "expires": 1701364691.967347,
       "httpOnly": true,
       "secure": true,
       "sameSite": "Lax"
@@ -387,7 +387,7 @@
       "localStorage": [
         {
           "name": "_event_tracker_queue",
-          "value": "[{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"11fad973\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12132,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"6ade6456-37cf-adff-9810-9b8aeeb2a882\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"kind\":\"body-content-start\",\"info1\":100,\"info2\":1668902353643,\"name\":\"page-load-event\",\"timestamp\":1668902353,\"uuid\":\"1849254fb4f19be0947514011c8d919525635e10001849254fb50190d\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"11fad973\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12132,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"6ade6456-37cf-adff-9810-9b8aeeb2a882\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"kind\":\"load-main-init\",\"info1\":711,\"info2\":1668902353643,\"name\":\"page-load-event\",\"timestamp\":1668902354,\"uuid\":\"1849254fdb210fc0de1b0770fd18219525635e10001849254fdb3cb3\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"11fad973\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12132,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"6ade6456-37cf-adff-9810-9b8aeeb2a882\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"kind\":\"startup-scripts\",\"info1\":1092,\"info2\":1668902353643,\"name\":\"page-load-event\",\"timestamp\":1668902354,\"uuid\":\"1849254ff2f135a0657f89f6ca95819525635e10001849254ff301b12\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"11fad973\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12132,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"6ade6456-37cf-adff-9810-9b8aeeb2a882\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"kind\":\"new_layout\",\"name\":\"layout_indicator\",\"timestamp\":1668902354,\"uuid\":\"1849254ff397510fe35de3c14fab19525635e10001849254ff3a1be3\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"11fad973\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12132,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"6ade6456-37cf-adff-9810-9b8aeeb2a882\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"info1\":1280,\"info2\":720,\"name\":\"window_dimentions\",\"timestamp\":1668902354,\"uuid\":\"1849254ff3b1a30095b1821df730919525635e10001849254ff3c1d9b\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"11fad973\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12132,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"6ade6456-37cf-adff-9810-9b8aeeb2a882\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"kind\":\"calling-onboarding\",\"info1\":1107,\"info2\":1668902353643,\"name\":\"page-load-event\",\"timestamp\":1668902354,\"uuid\":\"1849254ff3e9af0580d3e46aaa419525635e10001849254ff3f1d09\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"11fad973\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12132,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"6ade6456-37cf-adff-9810-9b8aeeb2a882\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"kind\":\"body-content-end\",\"info1\":1165,\"info2\":1668902353643,\"name\":\"page-load-event\",\"timestamp\":1668902354,\"uuid\":\"1849254ff7820e035980852e5ccf19525635e10001849254ff7952c\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"11fad973\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12132,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"6ade6456-37cf-adff-9810-9b8aeeb2a882\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"kind\":\"/boards/2132706384/views/64697777\",\"info1\":\"afa07fda-80e3-49c3-83cc-8122c6eb4d38\",\"info2\":\"GTM-KGBGGC3\",\"name\":\"gtm_page_view\",\"timestamp\":1668902354,\"uuid\":\"1849254ff8e9a30c0bf57e46814d19525635e10001849254ff8f1bb6\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"11fad973\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12132,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"6ade6456-37cf-adff-9810-9b8aeeb2a882\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"kind\":\"document-ready\",\"info1\":1197,\"info2\":1668902353643,\"name\":\"page-load-event\",\"timestamp\":1668902354,\"uuid\":\"1849254ff98a55038452c7713bc819525635e10001849254ff9919f5\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"11fad973\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12132,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"6ade6456-37cf-adff-9810-9b8aeeb2a882\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"name\":\"pin_board_subset\",\"timestamp\":1668902354,\"uuid\":\"1849254ff9e1a360f38fcf5a4144a19525635e10001849254ff9f1b1a\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"11fad973\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12132,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"6ade6456-37cf-adff-9810-9b8aeeb2a882\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"board_id\":2132706384,\"direct_object\":\"board\",\"data\":{\"is_doc\":false},\"name\":\"close_board_view_ui\",\"timestamp\":1668902354,\"uuid\":\"1849254ffa9c3d0ad8864a8872619525635e10001849254ffaa1a1e\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"11fad973\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12132,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"6ade6456-37cf-adff-9810-9b8aeeb2a882\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"board_id\":2132706384,\"direct_object\":\"board\",\"data\":{\"is_subitem\":false,\"is_doc\":false,\"ignoreError\":false},\"info1\":\"resetBoardAction\",\"direct_object_id\":2132706384,\"name\":\"board_load_request\",\"timestamp\":1668902354,\"uuid\":\"1849254ffab15802230230bf8a0f19525635e10001849254ffac1ad1\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"11fad973\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12132,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"6ade6456-37cf-adff-9810-9b8aeeb2a882\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"placement\":2132706384,\"info1\":570,\"name\":\"current_board_load\",\"timestamp\":1668902354,\"uuid\":\"1849254ffefd510d398d67f669d119525635e10001849254fff01c5d\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"11fad973\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12132,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"https://umg.monday.com/boards/2132706384/views/64697777?finish_wizard=true\",\"session_id\":\"6ade6456-37cf-adff-9810-9b8aeeb2a882\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"info1\":{\"height\":720,\"width\":1280},\"info2\":{\"height\":720,\"width\":1280},\"name\":\"new_session\",\"timestamp\":1668902354,\"uuid\":\"1849255000610990368e068c0a7e419525635e1000184925500071d37\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"11fad973\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12132,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":200,\"session_id\":\"6ade6456-37cf-adff-9810-9b8aeeb2a882\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"info1\":\"fb.1.1668902354051.881151510\",\"name\":\"facebook_id_tracking\",\"timestamp\":1668902354,\"uuid\":\"184925500094a70d2a58e6f6658319525635e10001849255000a1afe\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"11fad973\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12132,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"6ade6456-37cf-adff-9810-9b8aeeb2a882\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"kind\":5773780,\"info2\":false,\"name\":\"collapse_folder\",\"timestamp\":1668902354,\"uuid\":\"1849255001018210baa6a8bd1aa4f19525635e1000184925500111a9e\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"11fad973\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12132,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"6ade6456-37cf-adff-9810-9b8aeeb2a882\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"info1\":0,\"info2\":false,\"name\":\"keep_dependencies_optimistic_column_values\",\"timestamp\":1668902361,\"uuid\":\"184925518df81005cd03bf8ac67719525635e1000184925518e019ed\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"11fad973\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12132,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":15,\"session_id\":\"6ade6456-37cf-adff-9810-9b8aeeb2a882\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"board_kind\":\"share\",\"board_id\":2132706384,\"direct_object\":\"board\",\"data\":{\"is_subitem\":false,\"is_doc\":false},\"kind\":\"105719650\",\"direct_object_id\":2132706384,\"info1\":\"react_boards\",\"info2\":16607,\"name\":\"board_load\",\"timestamp\":1668902361,\"uuid\":\"184925518e4cee03f8b7fd52eee219525635e1000184925518e51d9d\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"11fad973\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12132,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"6ade6456-37cf-adff-9810-9b8aeeb2a882\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"board_kind\":\"share\",\"board_id\":2132706384,\"board_template\":\"105719650\",\"direct_object\":\"board\",\"data\":{\"is_subitem\":false,\"is_doc\":false},\"kind\":\"TableBoardView\",\"placement\":\"url\",\"name\":\"open_board_view_ui\",\"timestamp\":1668902361,\"uuid\":\"18492551911121c0f4243d2efe91419525635e1000184925519127ae\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"11fad973\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12132,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"6ade6456-37cf-adff-9810-9b8aeeb2a882\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"board_kind\":\"share\",\"board_id\":2132706384,\"board_template\":\"105719650\",\"direct_object\":\"board\",\"data\":{\"is_subitem\":false,\"boardview_type\":\"BoardView\",\"is_doc\":false,\"with_active_filter\":true,\"with_subitem_filter\":false},\"placement\":\"url\",\"info1\":64697777,\"name\":\"open_board_subset\",\"timestamp\":1668902361,\"uuid\":\"184925519145f3031db24cdc830519525635e1000184925519151d1a\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"11fad973\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12132,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"6ade6456-37cf-adff-9810-9b8aeeb2a882\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"boardId\":2132706384,\"name\":\"show_education_onboarding\",\"timestamp\":1668902361,\"uuid\":\"184925519e192e09b071cdcc258219525635e1000184925519e21d8f\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"11fad973\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12132,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"6ade6456-37cf-adff-9810-9b8aeeb2a882\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"kind\":\"user_experience_for_cluster\",\"info2\":\"integrations_button_logos\",\"data\":[\"adobe\",\"gmail\",\"facebookAds\"],\"name\":\"integrations_button_logos\",\"timestamp\":1668902361,\"uuid\":\"18492551abeeab03bc4eb005499b19525635e100018492551abf1cd6\"}]"
+          "value": "[{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"122f81d5\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12216,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"7bb9ad5f-8a71-df90-d0c3-a242e525797f\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"kind\":\"body-content-start\",\"info1\":162,\"info2\":1669807731806,\"name\":\"page-load-event\",\"timestamp\":1669807731,\"uuid\":\"184c84bf501174104d5d09ac145fe19525635e1000184c84bf502f76\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"122f81d5\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12216,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"7bb9ad5f-8a71-df90-d0c3-a242e525797f\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"kind\":\"load-main-init\",\"info1\":899,\"info2\":1669807731806,\"name\":\"page-load-event\",\"timestamp\":1669807732,\"uuid\":\"184c84bf7e15901dda7ad57240219525635e1000184c84bf7e217f9\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"122f81d5\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12216,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"7bb9ad5f-8a71-df90-d0c3-a242e525797f\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"kind\":\"startup-scripts\",\"info1\":1443,\"info2\":1669807731806,\"name\":\"page-load-event\",\"timestamp\":1669807733,\"uuid\":\"184c84bfa0100a1369c4cf7519525635e1000184c84bfa0219e9\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"122f81d5\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12216,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"7bb9ad5f-8a71-df90-d0c3-a242e525797f\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"kind\":\"new_layout\",\"name\":\"layout_indicator\",\"timestamp\":1669807733,\"uuid\":\"184c84bfa0d4de034f68d965cee219525635e1000184c84bfa0e1b90\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"122f81d5\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12216,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"7bb9ad5f-8a71-df90-d0c3-a242e525797f\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"info1\":1280,\"info2\":720,\"name\":\"window_dimentions\",\"timestamp\":1669807733,\"uuid\":\"184c84bfa0f197a0abba587cf406919525635e1000184c84bfa101b4d\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"122f81d5\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12216,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"7bb9ad5f-8a71-df90-d0c3-a242e525797f\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"kind\":\"calling-onboarding\",\"info1\":1460,\"info2\":1669807731806,\"name\":\"page-load-event\",\"timestamp\":1669807733,\"uuid\":\"184c84bfa127b0054de2d3bdb6e819525635e1000184c84bfa131cbb\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"122f81d5\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12216,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"7bb9ad5f-8a71-df90-d0c3-a242e525797f\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"kind\":\"body-content-end\",\"info1\":1526,\"info2\":1669807731806,\"name\":\"page-load-event\",\"timestamp\":1669807733,\"uuid\":\"184c84bfa545de0094e6bfce905c19525635e1000184c84bfa557f\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"122f81d5\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12216,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"7bb9ad5f-8a71-df90-d0c3-a242e525797f\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"kind\":\"/boards/2132706384/views/64697777\",\"info1\":\"105d8686-ebab-4ef0-b4d8-b2f82f22b5ab\",\"info2\":\"GTM-KGBGGC3\",\"name\":\"gtm_page_view\",\"timestamp\":1669807733,\"uuid\":\"184c84bfa73d7d0bfcd76a15ae9619525635e1000184c84bfa741bbe\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"122f81d5\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12216,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"7bb9ad5f-8a71-df90-d0c3-a242e525797f\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"kind\":\"document-ready\",\"info1\":1568,\"info2\":1669807731806,\"name\":\"page-load-event\",\"timestamp\":1669807733,\"uuid\":\"184c84bfa7e5050ae6b44b2d34519525635e1000184c84bfa7f7d3\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"122f81d5\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12216,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"7bb9ad5f-8a71-df90-d0c3-a242e525797f\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"name\":\"pin_board_subset\",\"timestamp\":1669807733,\"uuid\":\"184c84bfa8525a0f78a9fe5277ff19525635e1000184c84bfa86888\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"122f81d5\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12216,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"7bb9ad5f-8a71-df90-d0c3-a242e525797f\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"board_id\":2132706384,\"direct_object\":\"board\",\"data\":{\"is_doc\":false},\"name\":\"close_board_view_ui\",\"timestamp\":1669807733,\"uuid\":\"184c84bfa924300d9e4d6a71412f19525635e1000184c84bfa931ac6\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"122f81d5\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12216,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"7bb9ad5f-8a71-df90-d0c3-a242e525797f\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"board_id\":2132706384,\"direct_object\":\"board\",\"data\":{\"is_subitem\":false,\"is_doc\":false,\"ignoreError\":false},\"info1\":\"resetBoardAction\",\"direct_object_id\":2132706384,\"name\":\"board_load_request\",\"timestamp\":1669807733,\"uuid\":\"184c84bfa9518340225eb30cbc65119525635e1000184c84bfa9678b\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"122f81d5\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12216,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"7bb9ad5f-8a71-df90-d0c3-a242e525797f\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"placement\":2132706384,\"info1\":767,\"name\":\"current_board_load\",\"timestamp\":1669807733,\"uuid\":\"184c84bfae270a07bae668c821e819525635e1000184c84bfae31012\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"122f81d5\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12216,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"https://umg.monday.com/boards/2132706384/views/64697777?finish_wizard=true\",\"session_id\":\"7bb9ad5f-8a71-df90-d0c3-a242e525797f\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"info1\":{\"height\":720,\"width\":1280},\"info2\":{\"height\":720,\"width\":1280},\"name\":\"new_session\",\"timestamp\":1669807733,\"uuid\":\"184c84bfaff95b034980a273f06a19525635e1000184c84bfb001a7c\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"122f81d5\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12216,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":200,\"session_id\":\"7bb9ad5f-8a71-df90-d0c3-a242e525797f\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"info1\":\"fb.1.1669807732500.888075608\",\"name\":\"facebook_id_tracking\",\"timestamp\":1669807733,\"uuid\":\"184c84bfb039c40ceec4903b404719525635e1000184c84bfb041211\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"122f81d5\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12216,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"7bb9ad5f-8a71-df90-d0c3-a242e525797f\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"kind\":5773780,\"info2\":false,\"name\":\"collapse_folder\",\"timestamp\":1669807733,\"uuid\":\"184c84bfb0da4706ff23d2b0c0619525635e1000184c84bfb0e1a68\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"122f81d5\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12216,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"7bb9ad5f-8a71-df90-d0c3-a242e525797f\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"info1\":0,\"info2\":false,\"name\":\"keep_dependencies_optimistic_column_values\",\"timestamp\":1669807739,\"uuid\":\"184c84c10ca128707a1fa9939338319525635e1000184c84c10cb1a62\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"122f81d5\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12216,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":15,\"session_id\":\"7bb9ad5f-8a71-df90-d0c3-a242e525797f\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"board_kind\":\"share\",\"board_id\":2132706384,\"direct_object\":\"board\",\"data\":{\"is_subitem\":false,\"is_doc\":false},\"kind\":\"105719650\",\"direct_object_id\":2132706384,\"info1\":\"react_boards\",\"info2\":16802,\"name\":\"board_load\",\"timestamp\":1669807739,\"uuid\":\"184c84c10cfa0f08e5838e2e5ecb19525635e1000184c84c10d01de9\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"122f81d5\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12216,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"7bb9ad5f-8a71-df90-d0c3-a242e525797f\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"board_kind\":\"share\",\"board_id\":2132706384,\"board_template\":\"105719650\",\"direct_object\":\"board\",\"data\":{\"is_subitem\":false,\"is_doc\":false},\"kind\":\"TableBoardView\",\"placement\":\"url\",\"name\":\"open_board_view_ui\",\"timestamp\":1669807739,\"uuid\":\"184c84c10fb12bf0c3185a6ebf62319525635e1000184c84c10fc1daf\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"122f81d5\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12216,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"7bb9ad5f-8a71-df90-d0c3-a242e525797f\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"board_kind\":\"share\",\"board_id\":2132706384,\"board_template\":\"105719650\",\"direct_object\":\"board\",\"data\":{\"is_subitem\":false,\"boardview_type\":\"BoardView\",\"is_doc\":false,\"with_active_filter\":true,\"with_subitem_filter\":false},\"placement\":\"url\",\"info1\":64697777,\"name\":\"open_board_subset\",\"timestamp\":1669807739,\"uuid\":\"184c84c10fdc4105a455761aacbe19525635e1000184c84c10fe1d5c\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"122f81d5\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12216,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"7bb9ad5f-8a71-df90-d0c3-a242e525797f\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"boardId\":2132706384,\"name\":\"show_education_onboarding\",\"timestamp\":1669807739,\"uuid\":\"184c84c11ec10c905738d9e05c95f19525635e1000184c84c11ee280\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"122f81d5\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12216,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"7bb9ad5f-8a71-df90-d0c3-a242e525797f\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"kind\":\"user_experience_for_cluster\",\"info2\":\"integrations_button_logos\",\"data\":[\"adobe\",\"gmail\",\"facebookAds\"],\"name\":\"integrations_button_logos\",\"timestamp\":1669807739,\"uuid\":\"184c84c12c763701ed47d17b4a8b19525635e1000184c84c12c81b25\"},{\"pulse_account_id\":\"60594\",\"pulse_user_id\":\"31273659\",\"visitor_id\":\"122f81d5\",\"started_plan_at\":\"2019-07-25 19:15:22 UTC\",\"account_created_at\":\"2015-03-12 18:58:40 UTC\",\"plan_id\":12216,\"pulse_user_serial_number\":8003,\"source\":\"web_app\",\"os_language\":\"en-GB\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36\",\"browser\":\"chrome\",\"browser_version\":106,\"os\":\"mac\",\"device\":\"desktop\",\"screen_height\":720,\"screen_width\":1280,\"marketing_referrer\":\"https://umg.monday.com/auth/login_monday/email_password?dont_redirect=true\",\"tz_offset\":0,\"nav_type\":0,\"info3\":\"monday\",\"session_id\":\"7bb9ad5f-8a71-df90-d0c3-a242e525797f\",\"marketing_landing_page\":\"https://umg.monday.com/boards/2132706384/views/64697777\",\"board_id\":2132706384,\"data\":{\"error\":\"Cannot read properties of undefined (reading 'reported')\"},\"name\":\"mdb_board_load_integrity_error\",\"timestamp\":1669807739,\"uuid\":\"184c84c137b141808b780c4bfadb719525635e1000184c84c137c10e5\"}]"
         },
         {
           "name": "board_views:last_seen:2132706384:TableBoardView",
@@ -399,19 +399,19 @@
         },
         {
           "name": "__zlcstore",
-          "value": "{\"4OpNoxVHrTvzBe3JRevfeB8Fb3WHXKG7\":{\"web_sdk_last_host\":\"widget-mediator.zopim.com\",\"timestamp\":1668902358380,\"account_status\":\"offline\"}}"
+          "value": "{\"4OpNoxVHrTvzBe3JRevfeB8Fb3WHXKG7\":{\"web_sdk_last_host\":\"widget-mediator.zopim.com\",\"timestamp\":1669807737441,\"account_status\":\"online\"}}"
         },
         {
           "name": "pusherTransportTLS",
-          "value": "{\"timestamp\":1668902355238,\"transport\":\"ws\",\"latency\":402}"
+          "value": "{\"timestamp\":1669807733909,\"transport\":\"ws\",\"latency\":539}"
         },
         {
           "name": "ZD-buid",
-          "value": "dc912ba2ac574b34b80773b9ecf93217"
+          "value": "f5f239a729804ef081dd7f30a1f3a716"
         },
         {
           "name": "KEEP_ALIVE_TAB_EVENT",
-          "value": "1668902359749"
+          "value": "1669807738265"
         },
         {
           "name": "local_suggestions",
@@ -423,7 +423,7 @@
         },
         {
           "name": "ZD-settings",
-          "value": "[[\"da10a40096d2cc23c29a4219dcb7fa2c1a707334\",1668902357]]"
+          "value": "[[\"da10a40096d2cc23c29a4219dcb7fa2c1a707334\",1669807736]]"
         },
         {
           "name": "board_views:instance:56191129",
@@ -435,15 +435,15 @@
         },
         {
           "name": "ZD-suid",
-          "value": "{\"id\":\"56bdcb6e10a440938726b637b78835dc\",\"expiry\":1668903257613,\"tabs\":{\"count\":1,\"expiry\":0}}"
+          "value": "{\"id\":\"3797d3f0b2f44a039fbb5c3444cee3d9\",\"expiry\":1669808636347,\"tabs\":{\"count\":1,\"expiry\":0}}"
         },
         {
           "name": "last_navigation_event_session_id",
-          "value": "8806df31-d6da-740e-1b5a-d68b85405a91"
+          "value": "31273659_1669807732989"
         },
         {
           "name": "last_sent_new_session",
-          "value": "1668902354"
+          "value": "1669807733"
         },
         {
           "name": "ZD-store",

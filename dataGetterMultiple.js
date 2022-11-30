@@ -1,6 +1,6 @@
 // imports...
 const { chromium } = require('@playwright/test');
-const {linkExtractAndSanitise, tagsCreate, removeEmptyDescription, instaHandles, extractContacts, viewsToFigure, tagExtract} = require('./functions.js')
+const {linkExtractAndSanitise,openAnywayPagePresent, tagsCreate, removeEmptyDescription, instaHandles, extractContacts, viewsToFigure, tagExtract} = require('./functions/functions.js')
 
 async function getData() {
   // returns an array of all the urls
@@ -8,12 +8,15 @@ async function getData() {
   // This is the returned array of all the data
   const mainLinkDataArray = []
   const browser = await chromium.launch({
-    headless: false
+    headless: false,
   });
   const context = await browser.newContext({
-    storageState: 'storageStateTrendpop.json'
+    storageState: 'storageStates/storageStateTrendpop.json',
   });
-  const page = await context.newPage();
+  const page = await context.newPage({
+    colorScheme: 'dark'
+
+  });
   await page.goto('https://app.trendpop.social');
   // new unpaid bill section
   await page.locator('css=[type="radio"]').click();
@@ -29,8 +32,20 @@ async function getData() {
     const description = await page.locator('xpath=//*[@id="video-report"]/div/div[1]/div[1]/div/div/div/div[2]/div[2]/p').innerText();
     const handle = await page.locator('xpath=//*[@id="video-report"]/div/div[1]/div[1]/div/div/div/div[2]/div[3]/p/a').innerText();
     const trendpopVideoLink = Urllink.trendpopVideoLink;
+    const trendpopCreatorLink = Urllink.trendpopCreatorLink;
     const tiktokVideoLink = Urllink.tiktokVideoLink;
     const tiktokCreatorLink = Urllink.tiktokCreatorLink;
+
+
+    // this is the link tree bit
+    // await page.goto(trendpopCreatorLink)
+    // await page.reload()
+
+    // const linktreePage = page.locator('xpath=//*[@id="root"]/div/div/div[2]/div[1]/div[2]/div[1]/div/div[1]/div[2]/div[4]/span/a').click();
+    // // await page.goto(linktreePage)
+    // const instaLink = await page.locator("a[aria-label~='instagram']").getAttribute('href');
+
+
 
 
     const data = {
@@ -43,9 +58,10 @@ async function getData() {
         tiktokVideoLink: tiktokVideoLink,
         // go to the tiktok page and search for a link
         trendpopVideoLink: trendpopVideoLink,
+        trendpopCreatorLink: trendpopCreatorLink
       },
       contacts:{
-        // linkTree:linktreeLink,
+        // linkTree: instaLink,
         instaHandles: await instaHandles(description),
         // sameInstaAsTikTok: sameInstaAsTikTok,
         // email:email
@@ -57,5 +73,4 @@ async function getData() {
   return mainLinkDataArray;
 };
 
-getData().then((data) => console.log(data));
 exports.getData = getData;
